@@ -1,0 +1,12 @@
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\Time Management Application\net5.0\CustomClassLibrary.deps.json
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\Time Management Application\net5.0\CustomClassLibrary.dll
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\Time Management Application\net5.0\ref\CustomClassLibrary.dll
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\Time Management Application\net5.0\CustomClassLibrary.pdb
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\CustomClassLibrary\obj\Debug\net5.0\CustomClassLibrary.csproj.AssemblyReference.cache
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\CustomClassLibrary\obj\Debug\net5.0\CustomClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\CustomClassLibrary\obj\Debug\net5.0\CustomClassLibrary.AssemblyInfoInputs.cache
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\CustomClassLibrary\obj\Debug\net5.0\CustomClassLibrary.AssemblyInfo.cs
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\CustomClassLibrary\obj\Debug\net5.0\CustomClassLibrary.csproj.CoreCompileInputs.cache
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\CustomClassLibrary\obj\Debug\net5.0\CustomClassLibrary.dll
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\CustomClassLibrary\obj\Debug\net5.0\ref\CustomClassLibrary.dll
+D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\CustomClassLibrary\obj\Debug\net5.0\CustomClassLibrary.pdb

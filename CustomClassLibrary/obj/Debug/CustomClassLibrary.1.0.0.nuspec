@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CustomClassLibrary</id>
+    <version>1.0.0</version>
+    <authors>Ishka Sewshanker</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\Time Management Application\net5.0\CustomClassLibrary.dll" target="lib\net5.0\CustomClassLibrary.dll" />
+  </files>
+</package>

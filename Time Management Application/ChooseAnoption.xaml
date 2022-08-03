@@ -1,0 +1,27 @@
+﻿<Window x:Class="Time_Management_Application.ChooseAnoption"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Time_Management_Application"
+        mc:Ignorable="d"
+        Title="ChooseAnoption" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/calendar.jpg"/>
+    </Window.Background>
+
+    <Grid>
+        <Label Content="Please choose an option below : " HorizontalAlignment="Left"
+              Foreground="White" FontSize="25" Margin="66,10,0,0" VerticalAlignment="Top" Width="601"/>
+        <Button Content="Semester Dates" Foreground="Blue" FontSize="17"
+                HorizontalAlignment="Left" Margin="66,77,0,0" VerticalAlignment="Top" Width="179" Height="37" Click="Button_Click"/>
+        <Button Content="Capture Modules" Foreground="Blue" FontSize="17"
+                HorizontalAlignment="Left" Margin="66,145,0,0" VerticalAlignment="Top" Width="179" Height="34" Click="Button_Click_1"/>
+        <Button Content="List Of Modules" Foreground="Blue" FontSize="17"
+                HorizontalAlignment="Left" Margin="66,212,0,0" VerticalAlignment="Top" Width="179" Height="43" Click="Button_Click_2"/>
+        <Button Content="Back" Foreground="Blue" FontSize="17"
+                HorizontalAlignment="Left" Margin="66,292,0,0" VerticalAlignment="Top" Width="179" Height="34" Click="Button_Click_3"/>
+
+
+    </Grid>
+</Window>

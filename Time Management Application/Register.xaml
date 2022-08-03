@@ -1,0 +1,45 @@
+﻿<Window x:Class="Time_Management_Application.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Time_Management_Application"
+        mc:Ignorable="d"
+        Title="Registration Page- Desktop Time Management Application" Height="600" Width="1000" FontWeight="DemiBold">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/galaxy.jpg"/>
+    </Window.Background>
+    <Grid>
+        <!--Adding label to tell the user what to enter-->
+        <Label Content="Please enter your following details below to register into our time management system application" Foreground="White" FontSize="21"  HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="972"/>
+        <!--Adding label for first name-->
+        <Label Content="First Name" Foreground="White" FontSize="18" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Width="201"/>
+        <!--Adding label for last name-->
+        <Label Content="Last Name" Foreground="White" FontSize="18" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" Width="201"/>
+        <!--Adding label for Username-->
+        <Label Content="UserName" Foreground="White" FontSize="18"  HorizontalAlignment="Left" Margin="10,328,0,0" VerticalAlignment="Top" Width="201"/>
+        <!--Adding label for Password-->
+        <Label Content="Password" Foreground="White" FontSize="18" HorizontalAlignment="Left" Margin="10,403,0,0" VerticalAlignment="Top" Width="201"/>
+        <!--Adding textbox for firstname-->
+        <TextBox HorizontalAlignment="Left" x:Name="txt_firstName" Height="23" Margin="343,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
+        <!--Adding textbox for lastname-->
+        <TextBox HorizontalAlignment="Left" x:Name="txt_lastName" Height="23" Margin="343,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
+        <!--Adding textbox for username-->
+        <TextBox HorizontalAlignment="Left" x:Name="txt_UserName" Height="23" Margin="341,329,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
+        <!--Adding password box for password-->
+        <PasswordBox HorizontalAlignment="Left" x:Name="pbx_passwordInsert" Margin="341,403,0,0" VerticalAlignment="Top" Height="34" Width="199" PasswordChar="#"/>
+        <!--Adding button for user to click on to register details provided-->
+        <Button Content="CLICK TO REGISTER!" Foreground="Purple" x:Name="btn_RegisterHere" HorizontalAlignment="Left" Margin="235,477,0,0" VerticalAlignment="Top" Width="172" Height="34" Click="btn_RegisterHere_Click"/>
+        <!--Adding image to decorate page-->
+        <Image HorizontalAlignment="Left"  Source="Images/userDetails.jpg" Height="254" Margin="674,109,0,0" VerticalAlignment="Top" Width="235"/>
+        <!--Adding label for Email-->
+        <Label Content="Email"  Foreground="White" FontSize="18" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="201"/>
+        <!--Adding textbox for Email-->
+        <TextBox HorizontalAlignment="Left" x:Name="txt_Email" Height="23" Margin="343,260,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199"/>
+        <!--Adding button to go back-->
+        <Button Content="GO BACK" Foreground="Purple" x:Name="btn_GoBack" HorizontalAlignment="Left" Margin="516,477,0,0" VerticalAlignment="Top" Width="190" Height="34" Click="btn_GoBack_Click"/>
+
+
+
+    </Grid>
+</Window>

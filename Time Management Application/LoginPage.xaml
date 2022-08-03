@@ -1,0 +1,47 @@
+﻿<Window x:Class="Time_Management_Application.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Time_Management_Application"
+        mc:Ignorable="d"
+        Title="LoginPage- Desktop Time Management Application" Height="500" Width="1000" FontWeight="DemiBold">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/galaxy.jpg"/>
+    </Window.Background>
+    <Grid>
+        <!--Label to welcome the user-->
+        <Label Content="Welcome to the Time Management Application " Foreground="White" FontSize="22" 
+            HorizontalAlignment="Left" Margin="220,61,0,0" VerticalAlignment="Top"
+            RenderTransformOrigin="0.5,0.5" Width="487">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.108"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <!--Label for username-->
+        <Label Content="Enter Username: " HorizontalAlignment="Left" Margin="220,142,0,0" 
+            VerticalAlignment="Top" Width="290" Height="64" Foreground="White" FontSize="18"/>
+        <!--Textbox for username-->
+        <TextBox HorizontalAlignment="Left" Height="42" Margin="515,148,0,0" TextWrapping="Wrap" 
+            Text="" VerticalAlignment="Top" Width="234" x:Name="txtBox_Username"/>
+        <!--Label for password-->
+        <Label Content="Password: " HorizontalAlignment="Left" Margin="215,216,0,0"
+            VerticalAlignment="Top" Width="187" Height="64" Foreground="White" FontSize="18"/>
+        <!--Adding button for the user to login into the time management application-->
+        <Button Content="LOGIN!" Foreground="Purple"  HorizontalAlignment="Left"
+            Margin="341,301,0,0" VerticalAlignment="Top" Width="169" x:Name="btn_Submit" Click="btn_Submit_Click"/>
+        <!--Adding button for canceling the user input-->
+        <Button Content="CANCEL" HorizontalAlignment="Left" Margin="198,391,0,0" VerticalAlignment="Top"
+            Width="162" x:Name="btn_Cancel" Foreground="Purple"/>
+       <!--Adding button for registering a new user-->
+        <Button Content="REGISTER HERE!" Foreground="purple" x:Name="btn_register" HorizontalAlignment="Left" Margin="498,391,0,0" VerticalAlignment="Top" Width="169" Click="btn_register_Click"/>
+        <!--Adding password box to insert password-->
+        <PasswordBox x:Name="pbx_Password" HorizontalAlignment="Left" Margin="515,216,0,0" VerticalAlignment="Top" Height="41" Width="234" PasswordChar="#"/>
+
+    </Grid>
+</Window>

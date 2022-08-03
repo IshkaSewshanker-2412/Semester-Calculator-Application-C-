@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Ishka Sewshanker</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\SEMESTER 2\PROGRAMMING 2B\TaskOnePoe-Ishka-Sewshanker-20109454-PROG6212\Time Management Application\Time Management Application\</OutputPath>
+  </PropertyGroup>
+
+</Project>

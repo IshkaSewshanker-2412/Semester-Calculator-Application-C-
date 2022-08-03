@@ -1,0 +1,49 @@
+﻿<Window x:Class="Time_Management_Application.CapturePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Time_Management_Application"
+        mc:Ignorable="d"
+        Title="CapturePage - Desktop Time Management Application" Height="500" Width="1000">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/prog.jpg"/>
+    </Window.Background>
+    <Grid>
+        <!--Adding label to welcome user-->
+        <Label Content="Welcome to the capture page, please enter details for the following below : "
+               Foreground="White" FontSize="17" HorizontalAlignment="Left" Margin="124,10,0,0" VerticalAlignment="Top" Width="625"/>
+        <!--Adding label for course code-->
+        <Label Content="Enter Course Code : " HorizontalAlignment="Left"  Foreground="White" FontSize="17"
+               Margin="46,79,0,0" VerticalAlignment="Top" Width="280"/>
+        <!--Adding textbox for course code-->
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="409,88,0,0" TextWrapping="Wrap" Text="" 
+                 VerticalAlignment="Top" Width="233" x:Name="txtbx_CourseCode" />
+        <!--Adding label for module name-->
+        <Label Content="Enter Module Name : " HorizontalAlignment="Left"  Foreground="White" FontSize="17"
+               Margin="46,155,0,0" VerticalAlignment="Top" Width="280"/>
+        <!--Adding textbox for module name-->
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="409,164,0,0" TextWrapping="Wrap" 
+                 Text="" VerticalAlignment="Top" Width="233" x:Name="txtbx_ModuleName"/>
+        <!--Adding label for number of credits-->
+        <Label Content="Enter Number Of Credits : " HorizontalAlignment="Left"  Foreground="White" FontSize="17"
+               Margin="46,214,0,0" VerticalAlignment="Top" Width="280"/>
+        <!--Adding textbox for number of credits-->
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="409,224,0,0" TextWrapping="Wrap" 
+                 Text="" VerticalAlignment="Top" Width="233" x:Name="txtbox_NumOfCredits"/>
+        <!--Adding label for number of hours per week-->
+        <Label Content="Enter Number Of Hours Per Week : " HorizontalAlignment="Left"  Foreground="White" FontSize="17"
+               Margin="46,300,0,0" VerticalAlignment="Top" Width="280" />
+        <!--Adding textbox for number of hours per week-->
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="409,310,0,0" TextWrapping="Wrap"
+                 Text="" VerticalAlignment="Top" Width="233" x:Name="txtbox_numOfhours"/>
+        <!--Adding button to save-->
+        <Button Content="SAVE!!!" HorizontalAlignment="Left" Margin="373,398,0,0" VerticalAlignment="Top" Width="212" Height="30" Click="Button_Click_1"/>
+        <!--Adding button to go back-->
+        <Button Content="Back" HorizontalAlignment="Left" Margin="125,396,0,0" VerticalAlignment="Top" Width="201" Height="32" Click="Button_Click"/>
+
+
+
+
+    </Grid>
+</Window>
